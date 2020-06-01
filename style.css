@@ -1,0 +1,55 @@
+.container {
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    min-width: 400px;
+    padding: 20px;
+    background-color: #000;
+}
+
+.number {
+    font-size: 80px;
+    height: 130px;
+    text-align: end;
+    color: #FFF;
+}
+
+.line {
+    display: flex;
+}
+
+.cell {
+    text-align: center;
+    border: 3px solid;
+    border-radius: 5px;
+    width: 20%;
+    line-height: 80px;
+    border-radius: 100%;
+    margin: 5px;
+    margin-right: 10px;
+    font-size: 50px;
+    cursor: pointer;
+}    
+
+.cell:active {
+    opacity: 50%;
+}
+
+.zero {
+    width: 45%;
+    border-radius: 50px;
+}
+
+/* Background color of elements */
+.orange {
+    background-color: rgb(255, 174, 0);
+}
+
+.grey {
+    background-color: rgb(60, 61, 61);
+}
+
+.clear-grey {
+    background-color: rgb(166, 179, 185);
+}
