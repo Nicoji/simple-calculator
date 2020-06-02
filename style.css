@@ -1,18 +1,26 @@
+body {
+    background-color: #f1e1c0;
+}
+
 .container {
     width: 400px;
-    height: 600px;
+    height: 650px;
     margin: auto;
     margin-top: 20px;
     min-width: 400px;
     padding: 20px;
-    background-color: #000;
+    background-color: #2f6174;
+    border-radius: 30px;
+    border: 3px solid;
 }
 
-.number {
+.result-number {
     font-size: 80px;
-    height: 130px;
+    line-height: 170px;
+    height: 170px;
     text-align: end;
-    color: #FFF;
+    color: #a8c2cd;
+    
 }
 
 .line {
@@ -32,24 +40,24 @@
     cursor: pointer;
 }    
 
-.cell:active {
-    opacity: 50%;
-}
-
-.zero {
+.zero, .reset {
     width: 45%;
     border-radius: 50px;
 }
 
+.cell:active {
+    opacity: 50%;
+}
+
 /* Background color of elements */
-.orange {
-    background-color: rgb(255, 174, 0);
+.operator, .equal {
+    background-color: #398fa7;
 }
 
-.grey {
-    background-color: rgb(60, 61, 61);
+.numbers {
+    background-color: #a8c2cd;
 }
 
-.clear-grey {
-    background-color: rgb(166, 179, 185);
+.up-button {
+    background-color: #9a7e6c;
 }
